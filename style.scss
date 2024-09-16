@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+h1{
+    color: rgb(106, 68, 22);
+}
+
+p {
+    background-color: rgba(218, 218, 111, 0.475);
+}
+
+// propriedade chamada display; flex
+// coloca todos os filhos lado a lado
+// justify-content - alinha no eixo X = largura
+.container {
+    display: flex;
+    // ativa o flexbox
+    border:solid rgb(166, 166, 84);
+    justify-content: center;
+}
+
+.item {
+    background-color: rgba(164, 170, 170, 0.411);
+    border: solid rgba(146, 131, 108, 0.776);
+} 
+
+section{
+    margin: 10px 0;
+}
+
+.container1{
+    border:solid rgb(166, 166, 84);
+    display: flex;
+    justify-content: flex-end;  
+    // alinha no final
+}
+
+.container2 {
+    border:solid rgb(166, 166, 84);
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3{
+    border: solid rgb(166, 166, 84);
+    display: flex;
+    justify-content: space-between;
+    // space-between é o espaço entre a tag
+}
+
+.container4{
+    border: solid rgb(166, 166, 84);
+    display: flex;
+    justify-content: space-evenly;
+    // espaçamento igual ao redor das tags
+}
